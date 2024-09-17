@@ -27,5 +27,5 @@ vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 
 -- Configure plugins
-require("config.mason")
+require("lazy").setup("plugins")
 
